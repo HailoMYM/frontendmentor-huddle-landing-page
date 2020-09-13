@@ -61,7 +61,6 @@ html {
   grid-template-rows: repeat(5, auto);
   /* grid-auto-columns: auto; */
   justify-content: center;
-  align-items: center;
 }
 
 .nav {
@@ -311,9 +310,8 @@ footer {
     background-image: url(/images/bg-hero-desktop.svg);
     padding: 4em 3.5em 2.5em;
     flex-direction: row;
+    justify-content: space-around;
     text-align: left;
-    gap: 72px;
-    justify-content: center;
   }
 
   .hero-content {
@@ -336,7 +334,8 @@ footer {
   }
 
   .hero-img {
-    width: 680px;
+    min-width: 480px;
+    max-width: 680px;
     margin-top: 3.5em;
   }
 
